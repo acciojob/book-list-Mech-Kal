@@ -1,1 +1,90 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.mybooklist-heading {
+    text-align: center;
+    color: #4169E1; /* Royal Blue for "MyBookList" */
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Separator for form area */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: #4169E1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: #365FCD;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+/* table-striped effect */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Delete Button Styling */
+.delete {
+    background-color: #ff4136; /* Red color */
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    line-height: 1; /* Aligns the 'X' */
+    font-weight: bold;
+}
+
+.delete:hover {
+    background-color: #e0352d;
+}
